@@ -1,0 +1,36 @@
+STAKEHOLDER PRESENTATION SUMMARY — BUSINESS METRICS
+
+Dataset: 700 records covering Sep 2013 to Dec 2014.
+Note: The source does not specify a currency, so values are reported without a currency symbol.
+
+Headline performance
+• Net sales: 118,726,350.26
+• Profit: 16,893,702.26
+• Profit margin (profit ÷ sales): 14.2%
+• Gross sales: 127,931,598.50
+• Discounts: 9,205,248.24
+• Units sold: 1,125,806
+
+Key insights
+1. Government is the largest sales segment at 52,504,260.67, approximately 44.2% of total sales. It also contributes the largest total profit (11,388,173.17).
+2. Paseo is the leading product by sales at 33,011,143.95, around 27.8% of sales.
+3. The United States of America has the highest country sales (25,029,830.16), narrowly ahead of Canada (24,887,654.89); country results are relatively close overall.
+4. Enterprise generated -614,545.62 in profit (a loss) despite sales of 19,611,694.38. This segment merits a review of pricing, cost structure, and discounting.
+5. October 2014 was the highest-sales month (12,375,819.92). Consider checking whether this peak reflects seasonality, campaign activity, or a one-off large order.
+6. The High discount band generated 3,388,866.73 profit versus 6,188,857.70 in the Low band. Because discounts and product/customer mix may differ, avoid concluding that discount level alone caused the difference.
+7. Discount Band is missing for 53 records (7.6%). Validate whether these should be categorized as no discount or unknown before using discount-band comparisons.
+
+Recommended actions
+• Investigate Enterprise profitability by product, country, and discount band; test pricing and cost-reduction scenarios.
+• Protect availability and performance of Paseo and the Government segment while checking concentration risk.
+• Review October 2014 sales drivers and compare them with other months.
+• Resolve missing Discount Band values and verify metric definitions before publishing the dashboard.
+
+Suggested dashboard visuals
+• KPI cards: Sales, Profit, Profit Margin, Units Sold.
+• Line chart: Monthly Sales Trend.
+• Bar charts: Sales by Segment, Sales by Product, Sales by Country.
+• Slicers/filters: Year, Country, Segment, Product, Discount Band.
+
+Method note
+The dashboard preview workbook contains a dashboard page, source data, and chart-supporting summary tables. For the required interactive Power BI/Tableau submission, import the included CSV, recreate the listed visuals, and add slicers/filters. The Excel preview is a visual starting point, not a native .pbix or Tableau workbook.
